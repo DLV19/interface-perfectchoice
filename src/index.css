@@ -1,0 +1,78 @@
+/* LoginForm.css */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/PERFECT_CHOICE.png/1920px-PERFECT_CHOICE.png);
+  background-repeat:no-repeat;
+}
+
+h2 {
+  text-align: center;
+  color: #1877f2; /* Azul de Facebook */
+  font-family: fantasy;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px;
+  background-color: #1877f2; /* Azul de Facebook */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 10%;
+  height: 110%;
+  left: -10%;
+  top: 0;
+  transform: skew(20deg, 0deg);
+
+
+}
+
+button:hover {
+  background-color: #166fe5; /* Azul ligeramente más oscuro */
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.link a {
+  color: #1877f2; /* Azul de Facebook */
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
