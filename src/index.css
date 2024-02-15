@@ -9,9 +9,13 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-body {
+body{
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/PERFECT_CHOICE.png/1920px-PERFECT_CHOICE.png);
   background-repeat:no-repeat;
+  background-color: #87CEFA;
+  background-size: 500px;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 h2 {
